@@ -16,7 +16,7 @@ import "./App.css"
 import img from "./images/banner.jpg"
 
 export const App = () => (
-	<Router basename="#">
+	<Router>
 		<Nav />
 		<Banner img={img} alt="LNA" />
 		<Switch>
