@@ -16,7 +16,7 @@ import "./App.css"
 import img from "./images/banner.jpg"
 
 export const App = () => (
-	<Router basename={process.env.PUBLIC_URL}>
+	<Router basename={process.env.PUBLIC_URL + `#`}>
 		<Nav />
 		<Banner img={img} alt="LNA" />
 		<Switch>
