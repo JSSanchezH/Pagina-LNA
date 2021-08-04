@@ -16,7 +16,7 @@ import "./App.css"
 import img from "./images/banner.jpg"
 
 export const App = () => (
-	<Router>
+	<Router basename={process.env.PUBLIC_URL}>
 		<Nav />
 		<Banner img={img} alt="LNA" />
 		<Switch>
@@ -26,7 +26,7 @@ export const App = () => (
 					<Pages gremio={item.id} />
 				</Route>
 			))}
-			<Route path="*" component={Error404}/>
+			<Route path="*" component={Error404} status={404}/>
 		</Switch>
 		<Footer />
 	</Router>
