@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Pagina-LNA/static/css/main.36120fd0.chunk.css",
-    "main.js": "/Pagina-LNA/static/js/main.b6782d6e.chunk.js",
-    "main.js.map": "/Pagina-LNA/static/js/main.b6782d6e.chunk.js.map",
+    "main.js": "/Pagina-LNA/static/js/main.2229c7d4.chunk.js",
+    "main.js.map": "/Pagina-LNA/static/js/main.2229c7d4.chunk.js.map",
     "runtime-main.js": "/Pagina-LNA/static/js/runtime-main.c73b7583.js",
     "runtime-main.js.map": "/Pagina-LNA/static/js/runtime-main.c73b7583.js.map",
-    "static/js/2.c41cdf62.chunk.js": "/Pagina-LNA/static/js/2.c41cdf62.chunk.js",
-    "static/js/2.c41cdf62.chunk.js.map": "/Pagina-LNA/static/js/2.c41cdf62.chunk.js.map",
+    "static/js/2.db5b8d60.chunk.js": "/Pagina-LNA/static/js/2.db5b8d60.chunk.js",
+    "static/js/2.db5b8d60.chunk.js.map": "/Pagina-LNA/static/js/2.db5b8d60.chunk.js.map",
     "index.html": "/Pagina-LNA/index.html",
     "static/css/main.36120fd0.chunk.css.map": "/Pagina-LNA/static/css/main.36120fd0.chunk.css.map",
-    "static/js/2.c41cdf62.chunk.js.LICENSE.txt": "/Pagina-LNA/static/js/2.c41cdf62.chunk.js.LICENSE.txt",
+    "static/js/2.db5b8d60.chunk.js.LICENSE.txt": "/Pagina-LNA/static/js/2.db5b8d60.chunk.js.LICENSE.txt",
     "static/media/banner.b2e1514f.jpg": "/Pagina-LNA/static/media/banner.b2e1514f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c73b7583.js",
-    "static/js/2.c41cdf62.chunk.js",
+    "static/js/2.db5b8d60.chunk.js",
     "static/css/main.36120fd0.chunk.css",
-    "static/js/main.b6782d6e.chunk.js"
+    "static/js/main.2229c7d4.chunk.js"
   ]
 }
