@@ -1,29 +1,30 @@
-import { LNAItems } from "../LNAItems"
-import { TItems } from "../TItems"
-import { OEItems } from "../OEItems"
-import { LHItems } from "../LHItems"
-import { SWCOLItems } from "../SWCOLItems"
+import { LNAItems, TItems, OEItems, LHItems, SWCOLItems } from "../InfoItems"
+import { LNAEvents, TEvents, OEEvents, LHEvents, SWCOLEvents } from "../EventsItems"
 
 export const PagesItems = [
 	{
-		id: LNAItems,
+		info: LNAItems,
+		events: LNAEvents,
 		to: "/LNA",
 	},
 	{
-		id: TItems,
+		info: TItems,
+		events: TEvents,
 		to: "/Titanes",
-		title1: "T",
 	},
 	{
-		id: OEItems,
+		info: OEItems,
+		events: OEEvents,
 		to: "/OrionEspectral",
 	},
 	{
-		id: LHItems,
+		info: LHItems,
+		events: LHEvents,
 		to: "/LastHope",
 	},
 	{
-		id: SWCOLItems,
+		info: SWCOLItems,
+		events: SWCOLEvents,
 		to: "/SWCOL",
 	},
 ]

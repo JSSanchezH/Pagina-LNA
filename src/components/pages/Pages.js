@@ -1,13 +1,11 @@
 import { Info } from "../Info"
 import { Events } from "../Events"
 
-export const Pages = ({
-	gremio
-}) => {
+export const Pages = ({ info, events }) => {
 	return (
 		<div>
-			<Info gremio={gremio} />
-			<Events/>
+			<Info info={info} />
+			<Events events={events}/>
 		</div>
 	)
 }
